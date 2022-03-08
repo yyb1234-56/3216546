@@ -16,6 +16,8 @@
         .then(() => engine.shake())
         .then(() => engine.toText('My'))
         .then(() => engine.shake())
+        .then(() => engine.toText('Dear'))
+        .then(() => engine.shake())
         .then(() => engine.toText('Friend'))
         .then(() => engine.shake())
         .then(() => engine.clear())
