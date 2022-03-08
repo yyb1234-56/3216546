@@ -14,9 +14,11 @@
         .then(() => engine.shake())
         .then(() => engine.toText('WomensDay'))
         .then(() => engine.shake())
-        .then(() => engine.toText('My'))
+        .then(() => engine.toText('To'))
         .then(() => engine.shake())
-        .then(() => engine.toText('Mom'))
+        .then(() => engine.toText('HuiHui'))
+        .then(() => engine.shake())
+        .then(() => engine.toText('hahahaha(-^_^-)'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
