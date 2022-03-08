@@ -18,7 +18,7 @@
         .then(() => engine.shake())
         .then(() => engine.toText('HuiHui'))
         .then(() => engine.shake())
-        .then(() => engine.toText('hahahaha(-^_^-)'))
+        .then(() => engine.toText('(-^_^-)'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
